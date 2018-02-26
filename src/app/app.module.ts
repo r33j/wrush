@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { UpcomingGamesComponent } from './upcoming-games/upcoming-games.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { UpcomingGamesComponent } from './upcoming-games/upcoming-games.componen
     AppComponent,
     NavBarComponent,
     HomePageComponent,
-    UpcomingGamesComponent
+    UpcomingGamesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
