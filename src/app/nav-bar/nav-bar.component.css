@@ -3,3 +3,13 @@
     background-color: mediumaquamarine;
     border-color: mediumaquamarine
 }
+
+ul {
+    
+    list-style-type: none;
+}
+
+ul li {
+    
+    display: inline;
+}
