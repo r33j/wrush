@@ -1,9 +1,11 @@
 .jumbotron { 
-    height: auto;
+    height: 500px;
     color: #FFFFFF;
+<<<<<<< HEAD
+
+=======
     background: none;
-   padding:  0rem 2rem;
-    margin-bottom: 20px;
+>>>>>>> parent of d7735eb... update graphique index
 } 
     
     
