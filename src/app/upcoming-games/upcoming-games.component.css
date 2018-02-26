@@ -1,0 +1,17 @@
+.row {
+    
+ justify-content: space-between;
+    display: flex;
+        flex-wrap: wrap;    
+
+
+}
+
+.col {
+    text-align: center;
+    background-color: white;
+    height: 350px;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 25% 10%;
+}

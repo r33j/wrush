@@ -2,8 +2,6 @@
     
     background-color: mediumaquamarine;
     border-color: mediumaquamarine
-<<<<<<< HEAD
-=======
 }
 
 ul {
@@ -14,5 +12,21 @@ ul {
 ul li {
     
     display: inline;
->>>>>>> parent of d7735eb... update graphique index
+}
+
+.signin { 
+    margin-right: 10%;
+    color:dodgerblue;
+    
+    
+}
+
+.signup {
+    
+     color:dodgerblue;
+}
+
+.mb-4 {
+    
+margin-bottom:  0.5rem!important;
 }
