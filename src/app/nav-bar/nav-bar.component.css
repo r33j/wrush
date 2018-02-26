@@ -13,3 +13,20 @@ ul li {
     
     display: inline;
 }
+
+.signin { 
+    margin-right: 10%;
+    color:dodgerblue;
+    
+    
+}
+
+.signup {
+    
+     color:dodgerblue;
+}
+
+.mb-4 {
+    
+margin-bottom:  0.5rem!important;
+}
