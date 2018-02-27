@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    color: dodgerblue;
+    display: inline;
+}
+
+.dialogdemoBasicUsage #popupContainer {
+  position: relative;
+}
+ 
+#login-dialog {
+  max-width: 90%;
+  width: 500px;
+}

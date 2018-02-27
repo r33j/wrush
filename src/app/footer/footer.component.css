@@ -1,0 +1,16 @@
+.footer {
+    
+    position: fixed;
+    bottom: 5%;
+    left:40%;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+ul li {
+        display: inline;
+        padding-right: 15px;
+
+}

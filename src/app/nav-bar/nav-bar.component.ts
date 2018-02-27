@@ -1,4 +1,7 @@
 import { Component, OnInit  } from '@angular/core';
+import {MatDialogModule} from '@angular/material/dialog';
+
+
 
 @Component({
   selector: 'app-nav-bar',
@@ -13,3 +16,4 @@ export class NavBarComponent implements OnInit {
   }
 
 }
+
