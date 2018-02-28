@@ -1,8 +1,8 @@
 .footer {
+    padding-top: 25px;
+position: absolute;
+    left: 35%;
     
-    position: fixed;
-    bottom: 5%;
-    left:40%;
 }
 
 ul {
