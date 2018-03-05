@@ -1,6 +1,6 @@
 .footer {
     padding-top: 25px;
-position: absolute;
+    position:relative;
     left: 35%;
     bottom: 2%;
 }
