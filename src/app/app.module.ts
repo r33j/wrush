@@ -8,6 +8,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { UpcomingGamesComponent } from './upcoming-games/upcoming-games.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -17,10 +19,12 @@ import { LoginComponent } from './login/login.component';
     HomePageComponent,
     UpcomingGamesComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    MentionsLegalesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
