@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {Popup} from 'ng2-opd-popup';
 
 
 @Component({
