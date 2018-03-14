@@ -1,7 +1,7 @@
 .btn-primary {
     
     background-color: mediumaquamarine;
-    border-color: mediumaquamarine
+    border-color: mediumaquamarine;
 }
 
 ul {
@@ -29,4 +29,25 @@ ul li {
 .mb-4 {
     
 margin-bottom:  0.5rem!important;
+}
+
+.stripe {
+    
+    width: 150%;
+    height: 5px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: mediumaquamarine;
+    
+}
+
+.col {
+    text-align: center;
+      display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin-right: 0px;
 }

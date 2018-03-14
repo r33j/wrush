@@ -4,6 +4,8 @@
     background: none;
    padding:  0rem 2rem;
     margin-bottom: 3%;
+
+    
 } 
     
     
@@ -12,4 +14,12 @@
     
     background-color: mediumaquamarine;
     border-color: mediumaquamarine
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    
+        border-radius: 2.3rem;
+        font-size: 1.15rem;
+
+    
 }
