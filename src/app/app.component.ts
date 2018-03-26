@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
     this.myParams = {
             particles: {
                 number: {
-                    value: 80,
+                    value: 120,
                 },
                 color: {
                     value: '#eee'
