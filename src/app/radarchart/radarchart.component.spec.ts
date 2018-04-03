@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PseudoFormComponent } from './pseudo-form.component';
+import { RadarchartComponent } from './radarchart.component';
 
-describe('PseudoFormComponent', () => {
-  let component: PseudoFormComponent;
-  let fixture: ComponentFixture<PseudoFormComponent>;
+describe('RadarchartComponent', () => {
+  let component: RadarchartComponent;
+  let fixture: ComponentFixture<RadarchartComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PseudoFormComponent ]
+      declarations: [ RadarchartComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PseudoFormComponent);
+    fixture = TestBed.createComponent(RadarchartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

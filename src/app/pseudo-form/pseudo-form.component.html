@@ -1,0 +1,14 @@
+<div>
+  <div class="form-group">
+    <form [formGroup]="pseudoForm" (ngSubmit)="setPseudo()" class="form-inline-right" >
+      <label for="pseudo">
+        <div class="alert" *ngIf="!pseudoForm.controls['pseudo'].valid && pseudoForm.controls['pseudo'].touched">
+          {{ titleAlert }}
+        </div>
+        <input type= "text" id="pseudo" name="pseudo" formControlName="pseudo" placeholder="Summoner name  EUW">
+      </label>
+
+      <button  type="submit" class="btn btn-primary" [disabled]="pseudoForm.pristine || !pseudoForm.valid">Submit</button>
+    </form>
+  </div>
+</div>

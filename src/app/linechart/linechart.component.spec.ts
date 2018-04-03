@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PseudoFormComponent } from './pseudo-form.component';
+import { LinechartComponent } from './linechart.component';
 
-describe('PseudoFormComponent', () => {
-  let component: PseudoFormComponent;
-  let fixture: ComponentFixture<PseudoFormComponent>;
+describe('LinechartComponent', () => {
+  let component: LinechartComponent;
+  let fixture: ComponentFixture<LinechartComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PseudoFormComponent ]
+      declarations: [ LinechartComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PseudoFormComponent);
+    fixture = TestBed.createComponent(LinechartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
