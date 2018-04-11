@@ -16,6 +16,7 @@ import { ChartsComponent } from './charts/charts.component';
 import { RadarchartComponent } from './radarchart/radarchart.component';
 import { LinechartComponent } from './linechart/linechart.component';
 import { PseudoFormComponent } from './pseudo-form/pseudo-form.component';
+import { BoardComponent } from './board/board.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { PseudoFormComponent } from './pseudo-form/pseudo-form.component';
     ChartsComponent,
     RadarchartComponent,
     LinechartComponent,
-    PseudoFormComponent
+    PseudoFormComponent,
+    BoardComponent
   ],
   imports: [
     BrowserModule,
