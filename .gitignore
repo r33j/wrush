@@ -42,3 +42,6 @@ testem.log
 .DS_Store
 Thumbs.db
 src/app/footer/footer.component.css
+src/styles.scss
+src/styles.scss
+yarn-error.log
